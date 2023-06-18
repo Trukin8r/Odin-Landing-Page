@@ -9,6 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
     padding: .25rem 3rem
 }
 
@@ -29,4 +30,69 @@ nav.top-nav  a {
 
 nav.top-nav a:hover {
     color: darkcyan;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 360px; */
+    background-color: #002C69;
+    padding: 1rem 2.5rem;
+    color: #fff;
+
+    
+}
+
+.hero.hero-text {
+    color: #fff;
+
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+.hero-text ul{
+    /* list-style-image: url(./images/qortal_official_icon_transparent_.png); */
+    list-style-type: circle;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 12px;
+    line-height: 1.5;
+}
+
+main .card {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 5px 10px 8px #3a3c3d;
+    font-size: 22px;
+    background-color: #EEF6FC;
+    margin-top: 22px;
+    border: 2px solid #002C69;
+    
+
+}
+
+.card img {
+    /* justify-self: center; */
+    align-self: center;
+    border-radius: 16px;
+
+}
+
+.card p {
+    padding: 12px;
 }
