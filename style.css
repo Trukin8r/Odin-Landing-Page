@@ -96,3 +96,30 @@ main .card {
 .card p {
     padding: 12px;
 }
+
+.diagonal {
+    margin-top: 5rem;
+    position: relative;
+    padding: 3rem 10rem;
+    color: #EEF6FC;
+    
+}
+
+.diagonal::after {
+    content: '';
+    background-image: linear-gradient(38deg, #002C69, #595959);
+    position: absolute;
+    inset: 0;
+    transform: skewY(5deg);
+    z-index: -1;
+    box-shadow: 5px 10px 8px #3a3c3d;
+}
+
+.qlink a {
+    color: white;
+}
+
+.qlink a:hover {
+    color: lightskyblue;
+}
+
