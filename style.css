@@ -123,3 +123,62 @@ main .card {
     color: lightskyblue;
 }
 
+.callcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* flex: 0 1 50%; */
+    flex-basis: 50%;
+    margin: 10rem 8rem;
+    padding: 2rem 0;
+    background-color: #3388ff;
+    border-radius: 16px;
+    box-shadow: 5px 5px 8px royalblue;
+}
+
+.calltext {
+    flex: 0 0 50%;
+    margin-left: 3rem;
+    color: white;
+}
+
+.callbutton button {
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 2rem;
+    flex: 0 0 50%;
+    margin-right: 3rem;
+    padding: 1rem 3rem;
+    background-color: #002C69;
+    
+    color: white;
+    text-shadow: 2px 5px 5px 
+        rgba(255, 255, 255, 0.3);
+    
+}
+
+.callbutton button:hover {
+    cursor: pointer;
+    background-color: #3a3c3d;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+
+    background-color: #002C69;
+    color: white;
+    height: 5rem;
+
+}
+
+footer div {
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #3388ff;
+}
